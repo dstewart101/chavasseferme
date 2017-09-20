@@ -1,6 +1,28 @@
+.house-text {
+        display: none;
+    }
 
+    .full-width-image {
+        background: none;
+        color: black;
+    }
 
-@media (max-width: 500px) {
+    .full-width-image h1 {
+        text-align: center;
+        margin-top: 60px;
+        font-size: 24pt;
+    } 
+
+    h2 {
+        font-size: 18pt;
+    }   
+
+    .full-width-image p {
+        text-align: center;
+        font-size: 12pt;
+    }   
+
+/*@media (max-width: 414px) {
     .house-text {
         display: none;
     }
@@ -11,7 +33,6 @@
     }
 
     .full-width-image h2 {
-
         text-align: center;
         margin-top: 60px;
     }   
@@ -19,21 +40,48 @@
     .full-width-image p {
         text-align: center;
     }   
-}
+}*/
 
 
 
 @media (min-width: 576px) {
-
+    body { background-color: #ccc; }
 }
 
 @media (min-width: 768px) {
-
+    body { background-color: #ccc; }
 }
 
 
 @media (min-width: 992px) {
+    .chavasse-padding {
+        padding-top: 20px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        left: 0;
+        right: 0; 
+    }
 
+    .chavasse-padding:before {
+        content: "";
+        position: absolute;
+        left: -5%;
+        top: -5%;
+        right: 0;
+        z-index: -1;
+        display: block;
+        background-image: url("../img/trenchmap.jpg");
+        background-size:cover;
+        width: 110%;
+        height: 110%;
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        -o-filter: blur(2px);
+        -ms-filter: blur(2px);
+        filter: blur(2px);
+        overflow-x: hidden;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -41,7 +89,7 @@
         height: 400px; 
         background: url("../img/01.jpg") no-repeat center center fixed;
         background-size: cover;
-        background-position-y: -100px;
+        background-position-y: -150px;
         display: table;
     }
 
