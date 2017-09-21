@@ -61,7 +61,7 @@ h2 {
         height: 300px; 
         background: url("../img/01.jpg") no-repeat center center fixed;
         background-size: cover;
-        background-position-y: -120px;
+        background-position-y: -130px;
         text-align: center;
     }
 
@@ -70,12 +70,14 @@ h2 {
         vertical-align:middle;
         text-align: center;
         padding-top: 120px;
-        text-shadow: 0px 1px 1px black;
+        text-shadow: 2px 2px 1px black;
+        font-size: 36pt;
     }
 
     .full-width-image p {
         color: white;
-        text-shadow: 0px 1px 1px black;
+        text-shadow: 1px 1px 1px black;
+        font-size: 16pt;
     }
 
     .chavasse-padding {
@@ -106,10 +108,6 @@ h2 {
         filter: blur(2px);
         overflow-x: hidden;
     }
-}
-
-@media (min-width: 1100px) {
-    
 }
 
 @media (min-width: 1200px) {
@@ -120,44 +118,58 @@ h2 {
         background-position-y: -150px;
         display: table;
     }
+}
+
+
+@media (min-width: 1400px) {
+    .full-width-image {
+        height: 450px; 
+        background: url("../img/01.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-position-y: -200px;
+        display: table;
+    }
 
     .full-width-image h1 {
         color: white;
-        display:table-cell;
         vertical-align:middle;
         text-align: center;
+        padding-top: 120px;
+        text-shadow: 2px 2px 1px black;
+        font-size: 42pt;
     }
 
-    .chavasse-padding {
-        padding-top: 20px;
-        overflow-x: hidden;
-        overflow-y: hidden;
-        position: relative;
-        left: 0;
-        right: 0; 
-    }
-
-    .chavasse-padding:before {
-        content: "";
-        position: absolute;
-        left: -5%;
-        top: -5%;
-        right: 0;
-        z-index: -1;
-        display: block;
-        background-image: url("../img/trenchmap.jpg");
-        background-size:cover;
-        width: 110%;
-        height: 110%;
-        -webkit-filter: blur(2px);
-        -moz-filter: blur(2px);
-        -o-filter: blur(2px);
-        -ms-filter: blur(2px);
-        filter: blur(2px);
-        overflow-x: hidden;
+    .full-width-image p {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-size: 22pt;
     }
 }
 
+@media (min-width: 1600px) {
+    .full-width-image {
+        height: 500px; 
+        background: url("../img/01.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-position-y: -250px;
+        display: table;
+    }
+
+    .full-width-image h1 {
+        color: white;
+        vertical-align:middle;
+        text-align: center;
+        padding-top: 120px;
+        text-shadow: 2px 2px 1px black;
+        font-size: 50pt;
+    }
+
+    .full-width-image p {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-size: 28pt;
+    }
+}
 
 .marketing {
 text-align: center;
