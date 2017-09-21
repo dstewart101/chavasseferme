@@ -1,26 +1,26 @@
 .house-text {
-        display: none;
-    }
+    display: none;
+}
 
-    .full-width-image {
-        background: none;
-        color: black;
-    }
+.full-width-image {
+    background: none;
+    color: black;
+}
 
-    .full-width-image h1 {
-        text-align: center;
-        margin-top: 60px;
-        font-size: 24pt;
-    } 
+.full-width-image h1 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 24pt;
+} 
 
-    h2 {
-        font-size: 18pt;
-    }   
+h2 {
+    font-size: 18pt;
+}   
 
-    .full-width-image p {
-        text-align: center;
-        font-size: 12pt;
-    }   
+.full-width-image p {
+    text-align: center;
+    font-size: 12pt;
+}   
 
 /*@media (max-width: 414px) {
     .house-text {
@@ -45,15 +45,39 @@
 
 
 @media (min-width: 576px) {
-    body { background-color: #ccc; }
+    .house-text {
+        display: inherit;
+    }
 }
 
 @media (min-width: 768px) {
-    body { background-color: #ccc; }
+    h2.form-padding { padding-top: 0; }
 }
 
 
 @media (min-width: 992px) {
+
+    .full-width-image {
+        height: 300px; 
+        background: url("../img/01.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-position-y: -120px;
+        text-align: center;
+    }
+
+    .full-width-image h1 {
+        color: white;
+        vertical-align:middle;
+        text-align: center;
+        padding-top: 120px;
+        text-shadow: 0px 1px 1px black;
+    }
+
+    .full-width-image p {
+        color: white;
+        text-shadow: 0px 1px 1px black;
+    }
+
     .chavasse-padding {
         padding-top: 20px;
         overflow-x: hidden;
@@ -82,6 +106,10 @@
         filter: blur(2px);
         overflow-x: hidden;
     }
+}
+
+@media (min-width: 1100px) {
+    
 }
 
 @media (min-width: 1200px) {
@@ -141,7 +169,41 @@ margin-bottom: 10px;
 }
 
 .form-padding {
-padding-top: 20px;
+    padding-top: 20px;
 }
 
 
+
+
+
+.bg-dark {
+    background-color: #330!important;
+}
+
+.nav-link {
+    color: blue;
+}
+
+.dropdown-menu {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.dropdown-item {
+    background-color: rgba(255,255,255,0.05);
+    color: rgba(255,255,255, 0.8);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: rgba(255,255,255,1);
+}
+
+.btn-secondary {
+    background-color: #663;
+    border-color: #330;
+}
+
+.btn-secondary:hover {
+    background-color: #330;
+    border-color: black;
+}
