@@ -227,4 +227,14 @@ margin-bottom: 10px;
     padding-top: 20px;
 }
 
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.house {
+    margin-top: 90px;
+    background-color: white;
+}
+
 
