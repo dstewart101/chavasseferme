@@ -1,0 +1,230 @@
+/* 
+Theme Name: Chavasse Farm Custom Theme
+Author: David Stewart
+Description: Theme Created for CHavasse Ferme
+textdomain: chavasse
+*/
+
+
+.house-text {
+    display: none;
+}
+
+.full-width-image {
+    background: none;
+    color: black;
+}
+
+.full-width-image h1 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 24pt;
+} 
+
+h2 {
+    font-size: 18pt;
+}   
+
+.full-width-image p {
+    text-align: center;
+    font-size: 12pt;
+}   
+
+.marketing {
+text-align: center;
+}
+
+.bordered {
+border: solid 2px black;
+margin-bottom: 10px;
+}
+
+.form-padding {
+    padding-top: 20px;
+}
+
+.bg-dark {
+    background-color: #330!important;
+}
+
+.dropdown-menu {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.dropdown-item {
+    background-color: rgba(255,255,255,0.05);
+    color: rgba(255,255,255, 0.8);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: rgba(255,255,255,1);
+}
+
+.btn-secondary {
+    background-color: #663;
+    border-color: #330;
+}
+
+.btn-secondary:hover {
+    background-color: #330;
+    border-color: black;
+}
+
+
+
+@media (min-width: 576px) {
+    .house-text {
+        display: inherit;
+    }
+}
+
+@media (min-width: 768px) {
+    h2.form-padding { padding-top: 0; }
+}
+
+
+@media (min-width: 992px) {
+
+    .full-width-image {
+        height: 300px; 
+        background: url("../img/01.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-position-y: -130px;
+        text-align: center;
+    }
+
+    .full-width-image h1 {
+        color: white;
+        vertical-align:middle;
+        text-align: center;
+        padding-top: 120px;
+        text-shadow: 2px 2px 1px black;
+        font-size: 36pt;
+    }
+
+    .full-width-image p {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-size: 16pt;
+    }
+
+    .chavasse-padding {
+        padding-top: 20px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        left: 0;
+        right: 0; 
+    }
+
+    .chavasse-padding:before {
+        content: "";
+        position: absolute;
+        left: -5%;
+        top: -5%;
+        right: 0;
+        z-index: -1;
+        display: block;
+        background-image: url("../img/trenchmap.jpg");
+        background-size:cover;
+        width: 110%;
+        height: 110%;
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        -o-filter: blur(2px);
+        -ms-filter: blur(2px);
+        filter: blur(2px);
+        overflow-x: hidden;
+    }
+
+    .dropdown-menu {
+        background-color: rgba(102, 51, 0 ,0.95);
+    }
+
+    .dropdown-item {
+        background-color: rgba(255,255,255,0.05);
+        color: rgba(255,255,255, 0.8);
+    }
+
+    .dropdown-item:hover {
+        background-color: rgba(255,255,255,0.1);
+        color: rgba(255,255,255,1);
+    }
+}
+
+@media (min-width: 1200px) {
+    .full-width-image {
+        height: 400px; 
+        background: url("../img/01.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-position-y: -150px;
+        display: table;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .full-width-image {
+        height: 450px; 
+        background: url("../img/01.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-position-y: -200px;
+        display: table;
+    }
+
+    .full-width-image h1 {
+        color: white;
+        vertical-align:middle;
+        text-align: center;
+        padding-top: 120px;
+        text-shadow: 2px 2px 1px black;
+        font-size: 42pt;
+    }
+
+    .full-width-image p {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-size: 22pt;
+    }
+}
+
+@media (min-width: 1600px) {
+    .full-width-image {
+        height: 500px; 
+        background: url("../img/01.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-position-y: -250px;
+        display: table;
+    }
+
+    .full-width-image h1 {
+        color: white;
+        vertical-align:middle;
+        text-align: center;
+        padding-top: 120px;
+        text-shadow: 2px 2px 1px black;
+        font-size: 50pt;
+    }
+
+    .full-width-image p {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-size: 28pt;
+    }
+}
+
+.marketing {
+text-align: center;
+}
+
+.bordered {
+border: solid 2px black;
+margin-bottom: 10px;
+}
+
+.form-padding {
+    padding-top: 20px;
+}
+
+

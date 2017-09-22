@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+﻿<?php 
+
+/*main temmplate*/
+
+?>
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Chavasse Farm</title>
