@@ -1,10 +1,24 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+<?php
 
-</body>
-</html>
+/* Main Template File */
+
+get_header();
+
+?>
+
+<div class="container-fluid">
+    <h1>Chavasse Farm</h1>
+
+    <div class="main_content">
+
+    </div>
+</div>
+
+
+
+
+    <?php
+
+get_footer();
+
+?>
