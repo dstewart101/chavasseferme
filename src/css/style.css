@@ -237,4 +237,11 @@ em {
     background-color: white;
 }
 
+.property {
+    width: 100%;
+    text-align: center;
+}
 
+.twitter-column {
+    display: none;
+}
