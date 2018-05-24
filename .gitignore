@@ -3,3 +3,5 @@ node_modules
 *.sln
 *.suo
 /npm-debug.log
+/themes/chavasse-ferme/front-page.php
+/.vs/config/applicationhost.config
