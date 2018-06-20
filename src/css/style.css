@@ -19,10 +19,21 @@ textdomain: chavasse
     border-radius: .25rem;
 }
 
-
+.btn {
+    text-shadow: none;
+}
 
 .house-text {
     display: none;
+}
+
+.pop {
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.inverse-pop {
+    color: white;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .full-width-image {
@@ -86,8 +97,6 @@ margin-bottom: 10px;
     background-color: #330;
     border-color: black;
 }
-
-
 
 @media (min-width: 576px) {
     .house-text {
