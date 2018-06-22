@@ -14,6 +14,10 @@ textdomain: chavasse
     color: rgba(255,255,255,.7);
 }
 
+.container-padded {
+    margin-top: 80px;
+}
+
 .navbar-dark .navbar-nav .nav-link:hover {
     background-color: rgba(255,255,255,.05);
     border-radius: .25rem;
