@@ -4,7 +4,7 @@
 ?>
 
 <div class="container-fluid">
-    <h1>Chavasse Farm</h1>
+    <h1><?php echo get_the_title()?></h1>
     <div class="main_content">
         <?php
             // start the loop
